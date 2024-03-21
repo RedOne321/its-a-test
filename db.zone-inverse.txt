@@ -1,0 +1,38 @@
+; Zone inverse pour radouaneeddaouy.org
+
+$TTL 604800
+
+@ IN SOA ns1.radouaneEddaouy.org. admin.radouaneEddaouy.org. (
+
+2 ; numéro de série
+
+604800; rafraîchissement
+
+86400; nouvel essai
+
+2419200; Expire
+
+604800 ) ; TTL minimal
+
+@ IN NS ns1.radouaneEddaouy.org.
+
+;@ IN MX 10 mail.radouaneEddaouy.org.
+
+; hôtes déclarés
+
+15 IN PTR ns1.radouaneEddaouy.org.
+
+;16 IN PTR mail.radouaneEddaouy.org.
+
+;17 IN PTR pc1.radouaneEddaouy.org.
+
+
+
+
+
+
+
+
+
+
+

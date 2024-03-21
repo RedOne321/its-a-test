@@ -1,0 +1,52 @@
+; zone radouaneeddaouy.org
+
+$TTL 604800
+
+@ IN SOA ns1.radouaneEddaouy.org. admin.radouaneEddaouy.org. (
+
+2 ; numéro de série
+
+604800; rafraîchissement
+
+86400; nouvel essai
+
+2419200; Expire
+
+604800 ) ;
+
+
+
+; Déclarations de serveur DNS et serveur mail
+
+@ IN NS ns1.radouaneEddaouy.org.
+
+;@ IN MX 10 mail.radouaneEddaouy.org.
+
+
+
+; Hôtes déclarés; mettre un enregistrement de type A pour chaque hôte
+
+; identifiable sur le réseau
+
+ns1 IN A 10.0.2.15
+
+;www IN A 10.0.2.15
+
+;mail IN A 10.0.2.16
+
+;pc1 IN A 10.0.2.17
+
+
+
+; Alias; ici mettre un enregistrement de type CNAME pour chaque machine
+
+; déclarée; qui servira de serveur FTP,...
+
+www IN CNAME ns1.radouaneEddaouy.org.
+
+
+
+
+
+
+
